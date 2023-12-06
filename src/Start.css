@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to right, #77a9b0, #9fc0c4, #e4e6e5);
+}
+
+.arrow2 {
+  width: 25px;
+}
+
+.arrow1 {
+  width: 25px;
+}
+
+input {
+  padding: 4px;
+  border-radius: 6px;
+  border: 3px solid #4e00c2;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+select {
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: left;
+  border: 3px solid #4e00c2;
+}
+
+#start {
+  background-color: darkblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #3c67e3;
+  text-decoration: none;
+  padding: 15px 45px;
+  border: 3px solid #3c67e3;
+  border-radius: 10px;
+}
+
+#start:hover {
+  animation: pulsate 3s ease-in-out;
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+  }
+}

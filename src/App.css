@@ -1,0 +1,32 @@
+.char {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.people {
+    width: 16%;
+}
+
+.arrow2 {
+    rotate: 180deg;
+    width: 6%;
+}
+
+.arrow1 {
+    width: 6%;
+}
+
+.regis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.prodi {
+    width: 20%;
+    height: 30px;
+}
